@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -fPIC -std=gnu++2a
 
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/include -isystem /home/raulpavel/Qt/5.14.2/gcc_64/include -isystem /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets -isystem /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui -isystem /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore -isystem /home/raulpavel/Qt/5.14.2/gcc_64/./mkspecs/linux-g++ 
+CXX_INCLUDES = -I/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/include -isystem /home/raulpavel/Qt/5.14.2/gcc_64/include -isystem /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets -isystem /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui -isystem /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore -isystem /home/raulpavel/Qt/5.14.2/gcc_64/./mkspecs/linux-g++ 
 

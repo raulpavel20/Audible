@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/raulpavel/Documents/Work/Audible/Book.h
+/home/raulpavel/Downloads/Audible-master/Book.h
 string
 -
 
-/home/raulpavel/Documents/Work/Audible/Controller.h
+/home/raulpavel/Downloads/Audible-master/Controller.h
 Database.h
-/home/raulpavel/Documents/Work/Audible/Database.h
+/home/raulpavel/Downloads/Audible-master/Database.h
 Book.h
-/home/raulpavel/Documents/Work/Audible/Book.h
+/home/raulpavel/Downloads/Audible-master/Book.h
 string
 -
 
-/home/raulpavel/Documents/Work/Audible/Database.h
+/home/raulpavel/Downloads/Audible-master/Database.h
 Book.h
-/home/raulpavel/Documents/Work/Audible/Book.h
+/home/raulpavel/Downloads/Audible-master/Book.h
 vector
 -
 string
 -
 
-/home/raulpavel/Documents/Work/Audible/adminwindow.cpp
+/home/raulpavel/Downloads/Audible-master/adminwindow.cpp
 adminwindow.h
-/home/raulpavel/Documents/Work/Audible/adminwindow.h
+/home/raulpavel/Downloads/Audible-master/adminwindow.h
 clientwindow.h
-/home/raulpavel/Documents/Work/Audible/clientwindow.h
+/home/raulpavel/Downloads/Audible-master/clientwindow.h
 Controller.h
-/home/raulpavel/Documents/Work/Audible/Controller.h
+/home/raulpavel/Downloads/Audible-master/Controller.h
 Book.h
-/home/raulpavel/Documents/Work/Audible/Book.h
+/home/raulpavel/Downloads/Audible-master/Book.h
 vector
 -
 QLabel
@@ -54,71 +54,71 @@ QWidget
 QMessageBox
 -
 
-/home/raulpavel/Documents/Work/Audible/adminwindow.h
+/home/raulpavel/Downloads/Audible-master/adminwindow.h
 QMainWindow
 -
 Controller.h
-/home/raulpavel/Documents/Work/Audible/Controller.h
+/home/raulpavel/Downloads/Audible-master/Controller.h
 QLineEdit
 -
 
-/home/raulpavel/Documents/Work/Audible/clientwindow.h
+/home/raulpavel/Downloads/Audible-master/clientwindow.h
 QMainWindow
 -
 Controller.h
-/home/raulpavel/Documents/Work/Audible/Controller.h
+/home/raulpavel/Downloads/Audible-master/Controller.h
 QLineEdit
 -
 
-/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_adminwindow.cpp
+/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_adminwindow.cpp
 memory
 -
 ../../../adminwindow.h
-/home/raulpavel/Documents/Work/Audible/adminwindow.h
+/home/raulpavel/Downloads/Audible-master/adminwindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_clientwindow.cpp
+/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_clientwindow.cpp
 memory
 -
 ../../../clientwindow.h
-/home/raulpavel/Documents/Work/Audible/clientwindow.h
+/home/raulpavel/Downloads/Audible-master/clientwindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_mainwindow.cpp
+/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_mainwindow.cpp
 memory
 -
 ../../../mainwindow.h
-/home/raulpavel/Documents/Work/Audible/mainwindow.h
+/home/raulpavel/Downloads/Audible-master/mainwindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/mocs_compilation.cpp
+/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_adminwindow.cpp
-/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_adminwindow.cpp
+/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_adminwindow.cpp
 EWIEGA46WW/moc_clientwindow.cpp
-/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_clientwindow.cpp
+/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_clientwindow.cpp
 EWIEGA46WW/moc_mainwindow.cpp
-/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_mainwindow.cpp
+/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_mainwindow.cpp
 
-/home/raulpavel/Documents/Work/Audible/mainwindow.cpp
+/home/raulpavel/Downloads/Audible-master/mainwindow.cpp
 mainwindow.h
-/home/raulpavel/Documents/Work/Audible/mainwindow.h
+/home/raulpavel/Downloads/Audible-master/mainwindow.h
 clientwindow.h
-/home/raulpavel/Documents/Work/Audible/clientwindow.h
+/home/raulpavel/Downloads/Audible-master/clientwindow.h
 adminwindow.h
-/home/raulpavel/Documents/Work/Audible/adminwindow.h
+/home/raulpavel/Downloads/Audible-master/adminwindow.h
 QPushButton
 -
 
-/home/raulpavel/Documents/Work/Audible/mainwindow.h
+/home/raulpavel/Downloads/Audible-master/mainwindow.h
 QMainWindow
 -
 QDebug

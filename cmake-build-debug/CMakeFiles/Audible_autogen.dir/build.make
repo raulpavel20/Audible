@@ -43,10 +43,10 @@ RM = /home/raulpavel/Documents/clion-2020.1.1/bin/cmake/linux/bin/cmake -E remov
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raulpavel/Documents/Work/Audible
+CMAKE_SOURCE_DIR = /home/raulpavel/Downloads/Audible-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raulpavel/Documents/Work/Audible/cmake-build-debug
+CMAKE_BINARY_DIR = /home/raulpavel/Downloads/Audible-master/cmake-build-debug
 
 # Utility rule file for Audible_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/raulpavel/Documents/Work/Audible/cmake-build-debug
 include CMakeFiles/Audible_autogen.dir/progress.make
 
 CMakeFiles/Audible_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Audible"
-	/home/raulpavel/Documents/clion-2020.1.1/bin/cmake/linux/bin/cmake -E cmake_autogen /home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Audible"
+	/home/raulpavel/Documents/clion-2020.1.1/bin/cmake/linux/bin/cmake -E cmake_autogen /home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible_autogen.dir/AutogenInfo.json Debug
 
 Audible_autogen: CMakeFiles/Audible_autogen
 Audible_autogen: CMakeFiles/Audible_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/Audible_autogen.dir/clean:
 .PHONY : CMakeFiles/Audible_autogen.dir/clean
 
 CMakeFiles/Audible_autogen.dir/depend:
-	cd /home/raulpavel/Documents/Work/Audible/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raulpavel/Documents/Work/Audible /home/raulpavel/Documents/Work/Audible /home/raulpavel/Documents/Work/Audible/cmake-build-debug /home/raulpavel/Documents/Work/Audible/cmake-build-debug /home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/raulpavel/Downloads/Audible-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raulpavel/Downloads/Audible-master /home/raulpavel/Downloads/Audible-master /home/raulpavel/Downloads/Audible-master/cmake-build-debug /home/raulpavel/Downloads/Audible-master/cmake-build-debug /home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Audible_autogen.dir/depend
 

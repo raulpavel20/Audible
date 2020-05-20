@@ -1,61 +1,61 @@
 {
-	"BUILD_DIR" : "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen",
-	"CMAKE_BINARY_DIR" : "/home/raulpavel/Documents/Work/Audible/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/raulpavel/Documents/Work/Audible/cmake-build-debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/raulpavel/Documents/Work/Audible",
+	"BUILD_DIR" : "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen",
+	"CMAKE_BINARY_DIR" : "/home/raulpavel/Downloads/Audible-master/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/raulpavel/Downloads/Audible-master/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/raulpavel/Downloads/Audible-master",
 	"CMAKE_EXECUTABLE" : "/home/raulpavel/Documents/clion-2020.1.1/bin/cmake/linux/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/home/raulpavel/Documents/Work/Audible",
+	"CMAKE_SOURCE_DIR" : "/home/raulpavel/Downloads/Audible-master",
 	"HEADERS" : 
 	[
 		[
-			"/home/raulpavel/Documents/Work/Audible/Book.h",
+			"/home/raulpavel/Downloads/Audible-master/Book.h",
 			"MU",
 			"EWIEGA46WW/moc_Book.cpp"
 		],
 		[
-			"/home/raulpavel/Documents/Work/Audible/Controller.h",
+			"/home/raulpavel/Downloads/Audible-master/Controller.h",
 			"MU",
 			"EWIEGA46WW/moc_Controller.cpp"
 		],
 		[
-			"/home/raulpavel/Documents/Work/Audible/Database.h",
+			"/home/raulpavel/Downloads/Audible-master/Database.h",
 			"MU",
 			"EWIEGA46WW/moc_Database.cpp"
 		],
 		[
-			"/home/raulpavel/Documents/Work/Audible/JSONparser.h",
+			"/home/raulpavel/Downloads/Audible-master/JSONparser.h",
 			"MU",
 			"EWIEGA46WW/moc_JSONparser.cpp"
 		],
 		[
-			"/home/raulpavel/Documents/Work/Audible/PersistenceEngine.h",
+			"/home/raulpavel/Downloads/Audible-master/PersistenceEngine.h",
 			"MU",
 			"EWIEGA46WW/moc_PersistenceEngine.cpp"
 		],
 		[
-			"/home/raulpavel/Documents/Work/Audible/UI.h",
+			"/home/raulpavel/Downloads/Audible-master/UI.h",
 			"MU",
 			"EWIEGA46WW/moc_UI.cpp"
 		],
 		[
-			"/home/raulpavel/Documents/Work/Audible/adminwindow.h",
+			"/home/raulpavel/Downloads/Audible-master/adminwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_adminwindow.cpp"
 		],
 		[
-			"/home/raulpavel/Documents/Work/Audible/clientwindow.h",
+			"/home/raulpavel/Downloads/Audible-master/clientwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_clientwindow.cpp"
 		],
 		[
-			"/home/raulpavel/Documents/Work/Audible/mainwindow.h",
+			"/home/raulpavel/Downloads/Audible-master/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -90,27 +90,30 @@
 		"-c",
 		"/home/raulpavel/Documents/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/raulpavel/Qt/5.14.2/gcc_64/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/home/raulpavel/Qt/5.14.2/gcc_64/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
-	"SETTINGS_FILE" : "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/raulpavel/Documents/Work/Audible/Book.cpp", "MU" ],
-		[ "/home/raulpavel/Documents/Work/Audible/Controller.cpp", "MU" ],
-		[ "/home/raulpavel/Documents/Work/Audible/Database.cpp", "MU" ],
-		[ "/home/raulpavel/Documents/Work/Audible/PersistenceEngine.cpp", "MU" ],
-		[ "/home/raulpavel/Documents/Work/Audible/UI.cpp", "MU" ],
-		[ "/home/raulpavel/Documents/Work/Audible/adminwindow.cpp", "MU" ],
-		[ "/home/raulpavel/Documents/Work/Audible/clientwindow.cpp", "MU" ],
-		[ "/home/raulpavel/Documents/Work/Audible/main.cpp", "MU" ],
-		[ "/home/raulpavel/Documents/Work/Audible/mainwindow.cpp", "MU" ]
+		[ "/home/raulpavel/Downloads/Audible-master/Book.cpp", "MU" ],
+		[ "/home/raulpavel/Downloads/Audible-master/Controller.cpp", "MU" ],
+		[ "/home/raulpavel/Downloads/Audible-master/Database.cpp", "MU" ],
+		[
+			"/home/raulpavel/Downloads/Audible-master/PersistenceEngine.cpp",
+			"MU"
+		],
+		[ "/home/raulpavel/Downloads/Audible-master/UI.cpp", "MU" ],
+		[ "/home/raulpavel/Downloads/Audible-master/adminwindow.cpp", "MU" ],
+		[ "/home/raulpavel/Downloads/Audible-master/clientwindow.cpp", "MU" ],
+		[ "/home/raulpavel/Downloads/Audible-master/main.cpp", "MU" ],
+		[ "/home/raulpavel/Downloads/Audible-master/mainwindow.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

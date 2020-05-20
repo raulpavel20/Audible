@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_AdminWindow_t {
-    QByteArrayData data[8];
-    char stringdata0[75];
+    QByteArrayData data[10];
+    char stringdata0[98];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -39,11 +39,14 @@ QT_MOC_LITERAL(3, 25, 8), // "viewList"
 QT_MOC_LITERAL(4, 34, 10), // "deleteBook"
 QT_MOC_LITERAL(5, 45, 7), // "addBook"
 QT_MOC_LITERAL(6, 53, 8), // "editBook"
-QT_MOC_LITERAL(7, 62, 12) // "onBookDelete"
+QT_MOC_LITERAL(7, 62, 12), // "onBookDelete"
+QT_MOC_LITERAL(8, 75, 11), // "onAddButton"
+QT_MOC_LITERAL(9, 87, 10) // "onBookEdit"
 
     },
     "AdminWindow\0showOptions\0\0viewList\0"
-    "deleteBook\0addBook\0editBook\0onBookDelete"
+    "deleteBook\0addBook\0editBook\0onBookDelete\0"
+    "onAddButton\0onBookEdit"
 };
 #undef QT_MOC_LITERAL
 
@@ -53,7 +56,7 @@ static const uint qt_meta_data_AdminWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       6,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -61,14 +64,18 @@ static const uint qt_meta_data_AdminWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   44,    2, 0x0a /* Public */,
-       3,    0,   45,    2, 0x0a /* Public */,
-       4,    0,   46,    2, 0x0a /* Public */,
-       5,    0,   47,    2, 0x0a /* Public */,
-       6,    0,   48,    2, 0x0a /* Public */,
-       7,    0,   49,    2, 0x0a /* Public */,
+       1,    0,   54,    2, 0x0a /* Public */,
+       3,    0,   55,    2, 0x0a /* Public */,
+       4,    0,   56,    2, 0x0a /* Public */,
+       5,    0,   57,    2, 0x0a /* Public */,
+       6,    0,   58,    2, 0x0a /* Public */,
+       7,    0,   59,    2, 0x0a /* Public */,
+       8,    0,   60,    2, 0x0a /* Public */,
+       9,    0,   61,    2, 0x0a /* Public */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -91,6 +98,8 @@ void AdminWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 3: _t->addBook(); break;
         case 4: _t->editBook(); break;
         case 5: _t->onBookDelete(); break;
+        case 6: _t->onAddButton(); break;
+        case 7: _t->onBookEdit(); break;
         default: ;
         }
     }
@@ -126,13 +135,13 @@ int AdminWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 8;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 8)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 6;
+        _id -= 8;
     }
     return _id;
 }

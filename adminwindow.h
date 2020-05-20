@@ -10,25 +10,32 @@ namespace Ui { class AdminWindow; }
 QT_END_NAMESPACE
 
 class AdminWindow : public QMainWindow {
-    Q_OBJECT
+Q_OBJECT
 
-    public:
-        AdminWindow(QWidget *parent = nullptr);
-        ~AdminWindow();
+public:
+    AdminWindow(QWidget *parent = nullptr);
+    ~AdminWindow();
 
-    public slots:
-        void showOptions();
-        void viewList();
-        void deleteBook();
-        void addBook() {};
-        void editBook() {};
-        void onBookDelete();
+public slots:
+    void showOptions();
+    void viewList();
+    void deleteBook();
+    void addBook();
+    void editBook();
+    void onBookDelete();
+    void onAddButton();
+    void onBookEdit();
 
-    private:
-        Ui::AdminWindow *ui{};
-        QWidget mainWidget;
-        Controller databaseCtrl;
-        QLineEdit *title = new QLineEdit();
+private:
+    Ui::AdminWindow *ui{};
+    QWidget mainWidget;
+    Controller databaseCtrl;
+    QLineEdit *titleLine = new QLineEdit();
+    QLineEdit *authorLine = new QLineEdit();
+    QLineEdit *yearLine = new QLineEdit();
+    QLineEdit *descriptionLine = new QLineEdit();
+    QLineEdit *coverLine = new QLineEdit();
+    QLineEdit *genreLine = new QLineEdit();
 
 };
 

@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/mocs_compilation.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/Audible_autogen/mocs_compilation.cpp.o"
-  "/home/raulpavel/Documents/Work/Audible/Book.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/Book.cpp.o"
-  "/home/raulpavel/Documents/Work/Audible/Controller.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/Controller.cpp.o"
-  "/home/raulpavel/Documents/Work/Audible/Database.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/Database.cpp.o"
-  "/home/raulpavel/Documents/Work/Audible/PersistenceEngine.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/PersistenceEngine.cpp.o"
-  "/home/raulpavel/Documents/Work/Audible/UI.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/UI.cpp.o"
-  "/home/raulpavel/Documents/Work/Audible/adminwindow.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/adminwindow.cpp.o"
-  "/home/raulpavel/Documents/Work/Audible/clientwindow.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/clientwindow.cpp.o"
-  "/home/raulpavel/Documents/Work/Audible/main.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/main.cpp.o"
-  "/home/raulpavel/Documents/Work/Audible/mainwindow.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/mainwindow.cpp.o"
+  "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/Audible_autogen/mocs_compilation.cpp" "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible.dir/Audible_autogen/mocs_compilation.cpp.o"
+  "/home/raulpavel/Downloads/Audible-master/Book.cpp" "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible.dir/Book.cpp.o"
+  "/home/raulpavel/Downloads/Audible-master/Controller.cpp" "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible.dir/Controller.cpp.o"
+  "/home/raulpavel/Downloads/Audible-master/Database.cpp" "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible.dir/Database.cpp.o"
+  "/home/raulpavel/Downloads/Audible-master/PersistenceEngine.cpp" "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible.dir/PersistenceEngine.cpp.o"
+  "/home/raulpavel/Downloads/Audible-master/UI.cpp" "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible.dir/UI.cpp.o"
+  "/home/raulpavel/Downloads/Audible-master/adminwindow.cpp" "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible.dir/adminwindow.cpp.o"
+  "/home/raulpavel/Downloads/Audible-master/clientwindow.cpp" "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible.dir/clientwindow.cpp.o"
+  "/home/raulpavel/Downloads/Audible-master/main.cpp" "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible.dir/main.cpp.o"
+  "/home/raulpavel/Downloads/Audible-master/mainwindow.cpp" "/home/raulpavel/Downloads/Audible-master/cmake-build-debug/CMakeFiles/Audible.dir/mainwindow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
