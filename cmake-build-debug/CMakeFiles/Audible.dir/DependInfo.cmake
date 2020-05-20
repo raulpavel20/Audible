@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/raulpavel/Documents/Work/Audible/Database.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/Database.cpp.o"
   "/home/raulpavel/Documents/Work/Audible/PersistenceEngine.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/PersistenceEngine.cpp.o"
   "/home/raulpavel/Documents/Work/Audible/UI.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/UI.cpp.o"
+  "/home/raulpavel/Documents/Work/Audible/adminwindow.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/adminwindow.cpp.o"
   "/home/raulpavel/Documents/Work/Audible/clientwindow.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/clientwindow.cpp.o"
   "/home/raulpavel/Documents/Work/Audible/main.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/main.cpp.o"
   "/home/raulpavel/Documents/Work/Audible/mainwindow.cpp" "/home/raulpavel/Documents/Work/Audible/cmake-build-debug/CMakeFiles/Audible.dir/mainwindow.cpp.o"

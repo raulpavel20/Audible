@@ -38,6 +38,11 @@
 			"EWIEGA46WW/moc_UI.cpp"
 		],
 		[
+			"/home/raulpavel/Documents/Work/Audible/adminwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_adminwindow.cpp"
+		],
+		[
 			"/home/raulpavel/Documents/Work/Audible/clientwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_clientwindow.cpp"
@@ -102,6 +107,7 @@
 		[ "/home/raulpavel/Documents/Work/Audible/Database.cpp", "MU" ],
 		[ "/home/raulpavel/Documents/Work/Audible/PersistenceEngine.cpp", "MU" ],
 		[ "/home/raulpavel/Documents/Work/Audible/UI.cpp", "MU" ],
+		[ "/home/raulpavel/Documents/Work/Audible/adminwindow.cpp", "MU" ],
 		[ "/home/raulpavel/Documents/Work/Audible/clientwindow.cpp", "MU" ],
 		[ "/home/raulpavel/Documents/Work/Audible/main.cpp", "MU" ],
 		[ "/home/raulpavel/Documents/Work/Audible/mainwindow.cpp", "MU" ]

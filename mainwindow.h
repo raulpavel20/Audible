@@ -16,7 +16,7 @@ class MainWindow : public QMainWindow {
         ~MainWindow();
 
     public slots:
-        void adminWindow() { qInfo() << "WORK IN PROGRESS"; }
+        void adminWindow();
         void clientWindow();
 
     private:

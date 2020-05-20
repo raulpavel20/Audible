@@ -143,6 +143,12 @@
 		<Unit filename="/home/raulpavel/Documents/Work/Audible/UI.h">
 			<Option target="Audible"/>
 		</Unit>
+		<Unit filename="/home/raulpavel/Documents/Work/Audible/adminwindow.cpp">
+			<Option target="Audible"/>
+		</Unit>
+		<Unit filename="/home/raulpavel/Documents/Work/Audible/adminwindow.h">
+			<Option target="Audible"/>
+		</Unit>
 		<Unit filename="/home/raulpavel/Documents/Work/Audible/clientwindow.cpp">
 			<Option target="Audible"/>
 		</Unit>

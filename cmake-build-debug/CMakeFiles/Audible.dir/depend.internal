@@ -5,7 +5,9 @@ CMakeFiles/Audible.dir/Audible_autogen/mocs_compilation.cpp.o
  /home/raulpavel/Documents/Work/Audible/Book.h
  /home/raulpavel/Documents/Work/Audible/Controller.h
  /home/raulpavel/Documents/Work/Audible/Database.h
+ /home/raulpavel/Documents/Work/Audible/adminwindow.h
  /home/raulpavel/Documents/Work/Audible/clientwindow.h
+ /home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_adminwindow.cpp
  /home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_clientwindow.cpp
  /home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/EWIEGA46WW/moc_mainwindow.cpp
  /home/raulpavel/Documents/Work/Audible/cmake-build-debug/Audible_autogen/mocs_compilation.cpp
@@ -225,6 +227,161 @@ CMakeFiles/Audible.dir/UI.cpp.o
  /home/raulpavel/Documents/Work/Audible/Database.h
  /home/raulpavel/Documents/Work/Audible/UI.cpp
  /home/raulpavel/Documents/Work/Audible/UI.h
+CMakeFiles/Audible.dir/adminwindow.cpp.o
+ /home/raulpavel/Documents/Work/Audible/Book.h
+ /home/raulpavel/Documents/Work/Audible/Controller.h
+ /home/raulpavel/Documents/Work/Audible/Database.h
+ /home/raulpavel/Documents/Work/Audible/adminwindow.cpp
+ /home/raulpavel/Documents/Work/Audible/adminwindow.h
+ /home/raulpavel/Documents/Work/Audible/clientwindow.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/QDebug
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qabstractitemmodel.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qalgorithms.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qarraydata.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qatomic.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qatomic_bootstrap.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qatomic_cxx11.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qatomic_msvc.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qbasicatomic.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qbytearray.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qbytearraylist.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qchar.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qcompilerdetection.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qconfig-bootstrapped.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qconfig.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qcontainerfwd.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qcontainertools_impl.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qcontiguouscache.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qcoreevent.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qdatastream.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qdebug.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qfile.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qfiledevice.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qflags.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qgenericatomic.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qglobal.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qglobalstatic.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qhash.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qhashfunctions.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qiodevice.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qitemselectionmodel.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qiterator.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qline.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qlist.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qlocale.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qlogging.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qmap.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qmargins.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qmetatype.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qmutex.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qnamespace.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qnumeric.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qobject.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qobject_impl.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qobjectdefs.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qobjectdefs_impl.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qpair.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qpoint.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qprocessordetection.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qrect.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qrefcount.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qregexp.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qregularexpression.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qscopedpointer.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qset.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qshareddata.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qsharedpointer.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qsharedpointer_impl.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qsize.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qstring.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qstringalgorithms.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qstringbuilder.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qstringlist.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qstringliteral.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qstringmatcher.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qstringview.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qsysinfo.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qsystemdetection.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qtcore-config.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qtextstream.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qtypeinfo.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qurl.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qurlquery.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qvariant.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qvarlengtharray.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qvector.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qversiontagging.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qbrush.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qcolor.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qcursor.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qevent.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qfont.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qfontinfo.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qfontmetrics.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qicon.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qimage.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qkeysequence.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qmatrix.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpaintdevice.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpainterpath.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpalette.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpen.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpixelformat.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpixmap.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpolygon.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qregion.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qrgb.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qrgba64.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextcursor.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextformat.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextoption.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtgui-config.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtguiglobal.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtouchdevice.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtransform.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qvalidator.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qvector2d.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qwindowdefs.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qwindowdefs_win.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QHeaderView
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QLabel
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QLineEdit
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QMainWindow
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QMessageBox
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QPushButton
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QTableWidget
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QVBoxLayout
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QWidget
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qabstractbutton.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qabstractitemview.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qabstractscrollarea.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qabstractslider.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qabstractspinbox.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qboxlayout.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qdialog.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qframe.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qgridlayout.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qheaderview.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlabel.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlayout.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlayoutitem.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlineedit.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qmainwindow.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qmessagebox.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qpushbutton.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qrubberband.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qsizepolicy.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qslider.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qstyle.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qstyleoption.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qtabbar.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qtableview.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qtablewidget.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qtabwidget.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qtwidgets-config.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qwidget.h
 CMakeFiles/Audible.dir/clientwindow.cpp.o
  /home/raulpavel/Documents/Work/Audible/Book.h
  /home/raulpavel/Documents/Work/Audible/Controller.h
@@ -505,6 +662,7 @@ CMakeFiles/Audible.dir/mainwindow.cpp.o
  /home/raulpavel/Documents/Work/Audible/Book.h
  /home/raulpavel/Documents/Work/Audible/Controller.h
  /home/raulpavel/Documents/Work/Audible/Database.h
+ /home/raulpavel/Documents/Work/Audible/adminwindow.h
  /home/raulpavel/Documents/Work/Audible/clientwindow.h
  /home/raulpavel/Documents/Work/Audible/mainwindow.cpp
  /home/raulpavel/Documents/Work/Audible/mainwindow.h

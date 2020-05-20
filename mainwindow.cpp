@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "clientwindow.h"
+#include "adminwindow.h"
 #include <QPushButton>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
@@ -14,7 +15,12 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 }
 
 void MainWindow::clientWindow() {
-    auto clientWindow = new ClientWindow;
+    new ClientWindow;
+    this->close();
+}
+
+void MainWindow::adminWindow() {
+    new AdminWindow;
     this->close();
 }
 

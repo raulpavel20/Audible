@@ -298,6 +298,33 @@ UI.cpp.s:
 	$(MAKE) -f CMakeFiles/Audible.dir/build.make CMakeFiles/Audible.dir/UI.cpp.s
 .PHONY : UI.cpp.s
 
+adminwindow.o: adminwindow.cpp.o
+
+.PHONY : adminwindow.o
+
+# target to build an object file
+adminwindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Audible.dir/build.make CMakeFiles/Audible.dir/adminwindow.cpp.o
+.PHONY : adminwindow.cpp.o
+
+adminwindow.i: adminwindow.cpp.i
+
+.PHONY : adminwindow.i
+
+# target to preprocess a source file
+adminwindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Audible.dir/build.make CMakeFiles/Audible.dir/adminwindow.cpp.i
+.PHONY : adminwindow.cpp.i
+
+adminwindow.s: adminwindow.cpp.s
+
+.PHONY : adminwindow.s
+
+# target to generate assembly for a file
+adminwindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Audible.dir/build.make CMakeFiles/Audible.dir/adminwindow.cpp.s
+.PHONY : adminwindow.cpp.s
+
 clientwindow.o: clientwindow.cpp.o
 
 .PHONY : clientwindow.o
@@ -407,6 +434,9 @@ help:
 	@echo "... UI.o"
 	@echo "... UI.i"
 	@echo "... UI.s"
+	@echo "... adminwindow.o"
+	@echo "... adminwindow.i"
+	@echo "... adminwindow.s"
 	@echo "... clientwindow.o"
 	@echo "... clientwindow.i"
 	@echo "... clientwindow.s"

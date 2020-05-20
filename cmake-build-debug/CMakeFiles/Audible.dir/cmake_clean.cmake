@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Audible.dir/Database.cpp.o"
   "CMakeFiles/Audible.dir/PersistenceEngine.cpp.o"
   "CMakeFiles/Audible.dir/UI.cpp.o"
+  "CMakeFiles/Audible.dir/adminwindow.cpp.o"
   "CMakeFiles/Audible.dir/clientwindow.cpp.o"
   "CMakeFiles/Audible.dir/main.cpp.o"
   "CMakeFiles/Audible.dir/mainwindow.cpp.o"

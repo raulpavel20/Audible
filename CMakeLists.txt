@@ -9,6 +9,6 @@ set(CMAKE_AUTORCC ON)
 
 find_package(Qt5Widgets REQUIRED)
 
-add_executable(Audible main.cpp UI.cpp UI.h Database.cpp Database.h Book.cpp Book.h Controller.cpp Controller.h PersistenceEngine.cpp PersistenceEngine.h JSONparser.h mainwindow.cpp mainwindow.h clientwindow.cpp clientwindow.h)
+add_executable(Audible main.cpp UI.cpp UI.h Database.cpp Database.h Book.cpp Book.h Controller.cpp Controller.h PersistenceEngine.cpp PersistenceEngine.h JSONparser.h mainwindow.cpp mainwindow.h clientwindow.cpp clientwindow.h adminwindow.cpp adminwindow.h)
 
 target_link_libraries(Audible Qt5::Widgets)
