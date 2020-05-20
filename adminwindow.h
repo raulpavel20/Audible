@@ -18,6 +18,10 @@ class AdminWindow : public QMainWindow {
 
     public slots:
         void showOptions();
+        void viewList();
+        void deleteBook() {};
+        void addBook() {};
+        void editBook() {};
 
     private:
         Ui::AdminWindow *ui{};
