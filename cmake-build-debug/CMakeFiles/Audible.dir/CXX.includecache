@@ -41,11 +41,15 @@ QPushButton
 -
 QVBoxLayout
 -
+QHeaderView
+-
 QTableWidget
 -
-QIcon
+QDebug
 -
 QWidget
+-
+QMessageBox
 -
 
 /home/raulpavel/Documents/Work/Audible/clientwindow.h
@@ -53,6 +57,12 @@ QMainWindow
 -
 Controller.h
 /home/raulpavel/Documents/Work/Audible/Controller.h
+QLineEdit
+-
+
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/QDebug
+qdebug.h
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qdebug.h
 
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qabstractitemmodel.h
 QtCore/qvariant.h
@@ -808,10 +818,6 @@ QtCore/qpoint.h
 QtCore/qglobal.h
 -
 
-/home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/QIcon
-qicon.h
-/home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qicon.h
-
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qbrush.h
 QtGui/qtguiglobal.h
 -
@@ -1004,6 +1010,14 @@ QtGui/qcolor.h
 QtGui/qbrush.h
 -
 
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpen.h
+QtGui/qtguiglobal.h
+-
+QtGui/qcolor.h
+-
+QtGui/qbrush.h
+-
+
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpixelformat.h
 QtGui/qtguiglobal.h
 -
@@ -1058,6 +1072,46 @@ QtCore/qprocessordetection.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
+-
+
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextcursor.h
+QtGui/qtguiglobal.h
+-
+QtCore/qstring.h
+-
+QtCore/qshareddata.h
+-
+QtGui/qtextformat.h
+-
+
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextformat.h
+QtGui/qtguiglobal.h
+-
+QtGui/qcolor.h
+-
+QtGui/qfont.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qvector.h
+-
+QtCore/qvariant.h
+-
+QtGui/qpen.h
+-
+QtGui/qbrush.h
+-
+QtGui/qtextoption.h
+-
+
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextoption.h
+QtGui/qtguiglobal.h
+-
+QtCore/qnamespace.h
+-
+QtCore/qchar.h
+-
+QtCore/qmetatype.h
 -
 
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtgui-config.h
@@ -1130,13 +1184,25 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QHeaderView
+qheaderview.h
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qheaderview.h
+
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QLabel
 qlabel.h
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlabel.h
 
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QLineEdit
+qlineedit.h
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlineedit.h
+
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QMainWindow
 qmainwindow.h
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qmainwindow.h
+
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QMessageBox
+qmessagebox.h
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qmessagebox.h
 
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QPushButton
 qpushbutton.h
@@ -1214,6 +1280,12 @@ QtWidgets/qwidget.h
 limits.h
 -
 
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qdialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qframe.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1228,6 +1300,12 @@ QtWidgets/qlayout.h
 QtWidgets/qwidget.h
 -
 limits.h
+-
+
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qheaderview.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractitemview.h
 -
 
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlabel.h
@@ -1266,12 +1344,30 @@ QtCore/qrect.h
 limits.h
 -
 
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlineedit.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
+-
+QtGui/qtextcursor.h
+-
+QtCore/qstring.h
+-
+QtCore/qmargins.h
+-
+
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qmainwindow.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 QtWidgets/qtabwidget.h
+-
+
+/home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qmessagebox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
 -
 
 /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qpushbutton.h

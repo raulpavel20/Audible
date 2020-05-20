@@ -98,12 +98,16 @@ CMakeFiles/Audible.dir/Audible_autogen/mocs_compilation.cpp.o
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpaintdevice.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpainterpath.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpalette.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpen.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpixelformat.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpixmap.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpolygon.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qregion.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qrgb.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qrgba64.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextcursor.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextformat.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextoption.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtgui-config.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtguiglobal.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtouchdevice.h
@@ -111,7 +115,10 @@ CMakeFiles/Audible.dir/Audible_autogen/mocs_compilation.cpp.o
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qvector2d.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qwindowdefs.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qwindowdefs_win.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QLineEdit
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QMainWindow
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qframe.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlineedit.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qmainwindow.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qsizepolicy.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qtabwidget.h
@@ -224,6 +231,7 @@ CMakeFiles/Audible.dir/clientwindow.cpp.o
  /home/raulpavel/Documents/Work/Audible/Database.h
  /home/raulpavel/Documents/Work/Audible/clientwindow.cpp
  /home/raulpavel/Documents/Work/Audible/clientwindow.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/QDebug
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qabstractitemmodel.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qalgorithms.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qarraydata.h
@@ -300,7 +308,6 @@ CMakeFiles/Audible.dir/clientwindow.cpp.o
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qvarlengtharray.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qvector.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtCore/qversiontagging.h
- /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/QIcon
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qbrush.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qcolor.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qcursor.h
@@ -315,12 +322,16 @@ CMakeFiles/Audible.dir/clientwindow.cpp.o
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpaintdevice.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpainterpath.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpalette.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpen.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpixelformat.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpixmap.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpolygon.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qregion.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qrgb.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qrgba64.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextcursor.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextformat.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextoption.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtgui-config.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtguiglobal.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtouchdevice.h
@@ -329,8 +340,11 @@ CMakeFiles/Audible.dir/clientwindow.cpp.o
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qvector2d.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qwindowdefs.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qwindowdefs_win.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QHeaderView
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QLabel
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QLineEdit
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QMainWindow
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QMessageBox
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QPushButton
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QTableWidget
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QVBoxLayout
@@ -342,12 +356,16 @@ CMakeFiles/Audible.dir/clientwindow.cpp.o
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qabstractslider.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qabstractspinbox.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qboxlayout.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qdialog.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qframe.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qgridlayout.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qheaderview.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlabel.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlayout.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlayoutitem.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlineedit.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qmainwindow.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qmessagebox.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qpushbutton.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qrubberband.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qsizepolicy.h
@@ -578,12 +596,16 @@ CMakeFiles/Audible.dir/mainwindow.cpp.o
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpaintdevice.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpainterpath.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpalette.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpen.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpixelformat.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpixmap.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qpolygon.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qregion.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qrgb.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qrgba64.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextcursor.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextformat.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtextoption.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtgui-config.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtguiglobal.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qtouchdevice.h
@@ -591,9 +613,12 @@ CMakeFiles/Audible.dir/mainwindow.cpp.o
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qvector2d.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qwindowdefs.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtGui/qwindowdefs_win.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QLineEdit
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QMainWindow
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/QPushButton
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qabstractbutton.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qframe.h
+ /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qlineedit.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qmainwindow.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qpushbutton.h
  /home/raulpavel/Qt/5.14.2/gcc_64/include/QtWidgets/qsizepolicy.h

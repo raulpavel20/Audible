@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "Controller.h"
+#include <QLineEdit>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ClientWindow; }
@@ -18,11 +19,15 @@ class ClientWindow : public QMainWindow {
     public slots:
         void showOptions();
         void viewList();
+        void deleteBook();
+        void onBookDelete();
+
 
     private:
         Ui::ClientWindow *ui{};
         QWidget mainWidget;
         Controller databaseCtrl, clientCtrl;
+        QLineEdit *title = new QLineEdit();
 
 };
 
