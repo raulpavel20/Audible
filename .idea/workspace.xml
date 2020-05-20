@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Audible" targetName="Audible" />
+      <config projectName="Audible" targetName="Audible_autogen" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_PREFIX_PATH=/home/raulpavel/Qt/5.14.2/gcc_64/lib/cmake" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66e98222-8762-4a74-b4fc-29624656644c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Client.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/clientwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Audible" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Audible" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/clientwindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/clientwindow.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible_autogen.dir/ParseCache.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="vcViQWvL" />
+  </component>
+  <component name="ProjectId" id="1aRiZXGQ1JiaTvl678TgAOWMMog" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.Audible">
+    <configuration name="Audible" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Audible" TARGET_NAME="Audible" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Audible" RUN_TARGET_NAME="Audible">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Audible_autogen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Audible" TARGET_NAME="Audible_autogen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Audible" />
+      <item itemvalue="CMake Application.Audible_autogen" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66e98222-8762-4a74-b4fc-29624656644c" name="Default Changelist" comment="" />
+      <created>1586704863054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586704863054</updated>
+      <workItem from="1586704869384" duration="8344000" />
+      <workItem from="1586784911995" duration="787000" />
+      <workItem from="1586787228242" duration="777000" />
+      <workItem from="1586882899229" duration="7191000" />
+      <workItem from="1586890525194" duration="5029000" />
+      <workItem from="1586940005386" duration="12892000" />
+      <workItem from="1587303970412" duration="341000" />
+      <workItem from="1588250694192" duration="193000" />
+      <workItem from="1588265962392" duration="7868000" />
+      <workItem from="1588413012828" duration="380000" />
+      <workItem from="1588761913959" duration="12554000" />
+      <workItem from="1589355521294" duration="18273000" />
+      <workItem from="1589380311051" duration="3079000" />
+      <workItem from="1589964647979" duration="433000" />
+      <workItem from="1589965097762" duration="171000" />
+      <workItem from="1589965281051" duration="2664000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588266227831">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="361" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1588266227831" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588275386406">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1588275386406" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom" timestamp="1589968770512">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1238" height="77" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1588781354498" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1589968770512" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center" timestamp="1589968770511">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1238" height="77" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1588781354492" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1589968770511" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left" timestamp="1589968770511">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1238" height="77" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1588781354490" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1589968770511" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right" timestamp="1589968770511">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1238" height="77" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1588781354494" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1589968770511" />
+    <state width="1238" height="83" key="GridCell.Tab.1.bottom" timestamp="1586890520380">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="83" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586890520380" />
+    <state width="1238" height="83" key="GridCell.Tab.1.center" timestamp="1586890520378">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="83" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1586890520378" />
+    <state width="1238" height="83" key="GridCell.Tab.1.left" timestamp="1586890520377">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="83" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1586890520377" />
+    <state width="1238" height="83" key="GridCell.Tab.1.right" timestamp="1586890520379">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="83" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1586890520379" />
+    <state x="417" y="194" width="992" height="737" key="SettingsEditor" timestamp="1589965300986">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="245" y="30" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1588767701735" />
+    <state x="417" y="194" width="992" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1589965300986" />
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1588250696771">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1588250696771" />
+    <state x="317" y="233" key="com.intellij.ide.util.TipDialog/0.23.1280.724@0.23.1280.724" timestamp="1586882916470" />
+    <state x="402" y="38" key="refactoring.ChangeSignatureDialog" timestamp="1588773126638">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="402" y="38" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1588773126638" />
+  </component>
+</project>

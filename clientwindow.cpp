@@ -5,6 +5,8 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QVBoxLayout>
+#include <QTableWidget>
+#include <QIcon>
 #include <QWidget>
 
 ClientWindow::ClientWindow(QWidget *parent) : QMainWindow(parent) {
@@ -40,32 +42,36 @@ void ClientWindow::showOptions() {
 }
 
 void ClientWindow::viewList() {
-    auto *bookList = new QVBoxLayout();
+    auto Vlayout = new QVBoxLayout();
+
+    auto *bookList = new QTableWidget(0, 6);
+    QStringList labels;
+    labels << tr("Title") << tr("Author") << tr("Year") << tr("Genre") << tr("Description") << tr("Cover");
+    bookList->setHorizontalHeaderLabels(labels);
 
     std::vector<Book> myBooks = this->clientCtrl.getAll().getAll();
     for(auto & i : myBooks) {
-        auto title = new QLabel(QString::fromStdString(i.getTitle()));
-        auto author = new QLabel(QString::fromStdString(i.getAuthor()));
-        auto cover = new QLabel(QString::fromStdString(i.getCover()));
-        auto description = new QLabel(QString::fromStdString(i.getDescription()));
-        auto genre = new QLabel(QString::fromStdString(i.getGenre()));
-        auto year = new QLabel(QString::fromStdString(std::to_string(i.getYear())));
-        bookList->addWidget(title);
-        bookList->addWidget(author);
-        bookList->addWidget(description);
-        bookList->addWidget(genre);
-        bookList->addWidget(year);
-        bookList->addWidget(cover);
-        QWidget *lineB = new QWidget;
-        lineB->setFixedHeight(2);
-        lineB->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
-        lineB->setStyleSheet(QString("background-color: #c0c0c0;"));
-        bookList->addWidget(lineB);
+        int row = bookList->rowCount();
+        bookList->insertRow(row);
+        auto title = new QTableWidgetItem(QString::fromStdString(i.getTitle()));
+        bookList->setItem(row, 0, title);
+        auto author = new QTableWidgetItem(QString::fromStdString(i.getAuthor()));
+        bookList->setItem(row, 1, author);
+        auto year = new QTableWidgetItem(QString::fromStdString(std::to_string(i.getYear())));
+        bookList->setItem(row, 2, year);
+        auto genre = new QTableWidgetItem(QString::fromStdString(i.getGenre()));
+        bookList->setItem(row, 3, genre);
+        auto description = new QTableWidgetItem(QString::fromStdString(i.getDescription()));
+        bookList->setItem(row, 4, description);
+        auto cover = new QTableWidgetItem(QString::fromStdString(i.getCover()));
+        bookList->setItem(row, 5, cover);
     }
 
     auto backButton = new QPushButton("Back");
     connect(backButton, SIGNAL(clicked()), this, SLOT(showOptions()));
-    bookList->addWidget(backButton);
+
+    Vlayout->addWidget(bookList);
+    Vlayout->addWidget(backButton);
 
     if ( this->mainWidget.layout() != nullptr ) {
         QLayoutItem *item;
@@ -75,7 +81,7 @@ void ClientWindow::viewList() {
         }
         delete this->mainWidget.layout();
     }
-    this->mainWidget.setLayout(bookList);
+    this->mainWidget.setLayout(Vlayout);
 }
 
 ClientWindow::~ClientWindow() = default;
