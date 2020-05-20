@@ -14,6 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="66e98222-8762-4a74-b4fc-29624656644c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clientwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/clientwindow.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clientwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/clientwindow.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Audible" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Audible" afterDir="false" />
@@ -21,8 +22,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/Audible_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/Audible_autogen/mocs_compilation.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/clientwindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/clientwindow.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/mainwindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible.dir/mainwindow.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Audible_autogen.dir/ParseCache.txt" afterDir="false" />
     </list>
@@ -107,7 +106,7 @@
       <workItem from="1589380311051" duration="3079000" />
       <workItem from="1589964647979" duration="433000" />
       <workItem from="1589965097762" duration="171000" />
-      <workItem from="1589965281051" duration="9493000" />
+      <workItem from="1589965281051" duration="12393000" />
     </task>
     <servers />
   </component>
@@ -123,26 +122,26 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1588275386406" />
-    <state width="1878" height="104" key="GridCell.Tab.0.bottom" timestamp="1589975738322">
+    <state width="1878" height="104" key="GridCell.Tab.0.bottom" timestamp="1589978417464">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1238" height="77" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1588781354498" />
-    <state width="1878" height="104" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1589975738322" />
-    <state width="1878" height="104" key="GridCell.Tab.0.center" timestamp="1589975738322">
+    <state width="1878" height="104" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1589978417464" />
+    <state width="1878" height="104" key="GridCell.Tab.0.center" timestamp="1589978417464">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1238" height="77" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1588781354492" />
-    <state width="1878" height="104" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1589975738322" />
-    <state width="1878" height="104" key="GridCell.Tab.0.left" timestamp="1589975738322">
+    <state width="1878" height="104" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1589978417464" />
+    <state width="1878" height="104" key="GridCell.Tab.0.left" timestamp="1589978417464">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1238" height="77" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1588781354490" />
-    <state width="1878" height="104" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1589975738322" />
-    <state width="1878" height="104" key="GridCell.Tab.0.right" timestamp="1589975738322">
+    <state width="1878" height="104" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1589978417464" />
+    <state width="1878" height="104" key="GridCell.Tab.0.right" timestamp="1589978417464">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1238" height="77" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1588781354494" />
-    <state width="1878" height="104" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1589975738322" />
+    <state width="1878" height="104" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1589978417464" />
     <state width="1238" height="83" key="GridCell.Tab.1.bottom" timestamp="1586890520380">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

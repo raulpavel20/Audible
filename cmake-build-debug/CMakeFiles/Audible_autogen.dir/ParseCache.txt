@@ -13,7 +13,7 @@
  mmc:Q_OBJECT
 /home/raulpavel/Documents/Work/Audible/Database.h
 /home/raulpavel/Documents/Work/Audible/mainwindow.cpp
-/home/raulpavel/Documents/Work/Audible/clientwindow.cpp
+/home/raulpavel/Documents/Work/Audible/Book.cpp
 /home/raulpavel/Documents/Work/Audible/Controller.cpp
 /home/raulpavel/Documents/Work/Audible/JSONparser.h
-/home/raulpavel/Documents/Work/Audible/Book.cpp
+/home/raulpavel/Documents/Work/Audible/clientwindow.cpp

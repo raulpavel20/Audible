@@ -23,6 +23,14 @@
             "genre": "HORROR",
             "title": "The Haunting of Hill House",
             "year": 1959
+        },
+        {
+            "author": "Neil Gaiman",
+            "cover": "https://i.harperapps.com/covers/9780062896261/y648.jpg",
+            "description": "\tThe Amazon Prime series failed to spark, but Neil Gaiman's richly described novel is well worth a read.\n\tAmerican Gods pits the abandoned folk deities of the old world against the modern idols we worship now.",
+            "genre": "FANTASY",
+            "title": "American Gods",
+            "year": 2001
         }
     ]
 }

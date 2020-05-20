@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_ClientWindow_t {
-    QByteArrayData data[6];
-    char stringdata0[59];
+    QByteArrayData data[9];
+    char stringdata0[86];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -37,11 +37,15 @@ QT_MOC_LITERAL(1, 13, 11), // "showOptions"
 QT_MOC_LITERAL(2, 25, 0), // ""
 QT_MOC_LITERAL(3, 26, 8), // "viewList"
 QT_MOC_LITERAL(4, 35, 10), // "deleteBook"
-QT_MOC_LITERAL(5, 46, 12) // "onBookDelete"
+QT_MOC_LITERAL(5, 46, 12), // "onBookDelete"
+QT_MOC_LITERAL(6, 59, 6), // "browse"
+QT_MOC_LITERAL(7, 66, 6), // "onNext"
+QT_MOC_LITERAL(8, 73, 12) // "onAddAndNext"
 
     },
     "ClientWindow\0showOptions\0\0viewList\0"
-    "deleteBook\0onBookDelete"
+    "deleteBook\0onBookDelete\0browse\0onNext\0"
+    "onAddAndNext"
 };
 #undef QT_MOC_LITERAL
 
@@ -51,7 +55,7 @@ static const uint qt_meta_data_ClientWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -59,12 +63,18 @@ static const uint qt_meta_data_ClientWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   34,    2, 0x0a /* Public */,
-       3,    0,   35,    2, 0x0a /* Public */,
-       4,    0,   36,    2, 0x0a /* Public */,
-       5,    0,   37,    2, 0x0a /* Public */,
+       1,    0,   49,    2, 0x0a /* Public */,
+       3,    0,   50,    2, 0x0a /* Public */,
+       4,    0,   51,    2, 0x0a /* Public */,
+       5,    0,   52,    2, 0x0a /* Public */,
+       6,    0,   53,    2, 0x0a /* Public */,
+       7,    0,   54,    2, 0x0a /* Public */,
+       8,    0,   55,    2, 0x0a /* Public */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -83,6 +93,9 @@ void ClientWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 1: _t->viewList(); break;
         case 2: _t->deleteBook(); break;
         case 3: _t->onBookDelete(); break;
+        case 4: _t->browse(); break;
+        case 5: _t->onNext(); break;
+        case 6: _t->onAddAndNext(); break;
         default: ;
         }
     }
@@ -118,13 +131,13 @@ int ClientWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 7)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 4;
+        _id -= 7;
     }
     return _id;
 }

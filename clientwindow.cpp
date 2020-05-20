@@ -28,6 +28,7 @@ void ClientWindow::showOptions() {
 
     connect(yourListButton, SIGNAL(clicked()), this, SLOT(viewList()));
     connect(deleteButton, SIGNAL(clicked()), this, SLOT(deleteBook()));
+    connect(browseButton, SIGNAL(clicked()), this, SLOT(browse()));
 
     options->addWidget(yourListButton);
     options->addWidget(deleteButton);
@@ -45,6 +46,7 @@ void ClientWindow::showOptions() {
 }
 
 void ClientWindow::viewList() {
+    this->clientCtrl.loadData("client1", "/home/raulpavel/Documents/Work/Audible/Client.json");
     auto Vlayout = new QVBoxLayout();
 
     auto *bookList = new QTableWidget(0, 6);
@@ -150,5 +152,80 @@ void ClientWindow::onBookDelete() {
     }
 }
 
+void ClientWindow::browse() {
+    auto *browseForm = new QVBoxLayout();
+
+    auto *bookList = new QTableWidget(0, 6);
+    QStringList labels;
+    labels << tr("Title") << tr("Author") << tr("Year") << tr("Genre") << tr("Description") << tr("Cover");
+    bookList->setHorizontalHeaderLabels(labels);
+    bookList->horizontalHeader()->setMinimumSectionSize(160);
+
+    std::vector<Book> myBooks = this->databaseCtrl.getAll().getAll();
+
+    auto i = myBooks[this->browseIndex];
+    int row = bookList->rowCount();
+    bookList->insertRow(row);
+    auto title = new QTableWidgetItem(QString::fromStdString(i.getTitle()));
+    bookList->setItem(row, 0, title);
+    auto author = new QTableWidgetItem(QString::fromStdString(i.getAuthor()));
+    bookList->setItem(row, 1, author);
+    auto year = new QTableWidgetItem(QString::fromStdString(std::to_string(i.getYear())));
+    bookList->setItem(row, 2, year);
+    auto genre = new QTableWidgetItem(QString::fromStdString(i.getGenre()));
+    bookList->setItem(row, 3, genre);
+    auto description = new QTableWidgetItem(QString::fromStdString(i.getDescription()));
+    bookList->setItem(row, 4, description);
+    auto cover = new QTableWidgetItem(QString::fromStdString(i.getCover()));
+    bookList->setItem(row, 5, cover);
+
+    auto nextButton = new QPushButton("Next Book");
+    auto addAndNextButton = new QPushButton("Add to your list and go to the Next Book");
+    auto backButton = new QPushButton("Back");
+
+    connect(backButton, SIGNAL(clicked()), this, SLOT(showOptions()));
+    connect(nextButton, SIGNAL(clicked()), this, SLOT(onNext()));
+    connect(addAndNextButton, SIGNAL(clicked()), this, SLOT(onAddAndNext()));
+
+    browseForm->addWidget(bookList);
+    browseForm->addWidget(nextButton);
+    browseForm->addWidget(addAndNextButton);
+    browseForm->addWidget(backButton);
+
+    if ( this->mainWidget.layout() != nullptr ) {
+        QLayoutItem *item;
+        while ((item = this->mainWidget.layout()->takeAt(0)) != nullptr) {
+            delete item->widget();
+            delete item;
+        }
+        delete this->mainWidget.layout();
+    }
+    this->mainWidget.setLayout(browseForm);
+}
+
+void ClientWindow::onNext() {
+    this->browseIndex++;
+    if(this->browseIndex == this->databaseCtrl.getAll().getAll().size())
+        this->browseIndex = 0;
+    this->browse();
+}
+
+void ClientWindow::onAddAndNext() {
+    auto newBook = this->databaseCtrl.getAll().getAll()[this->browseIndex];
+    if(this->clientCtrl.getAll().checkDuplicate(newBook)) {
+        auto msg = QMessageBox();
+        msg.setText("Sorry...");
+        msg.setInformativeText("You already have that book in your list!");
+        msg.setStandardButtons(QMessageBox::Yes);
+        msg.exec();
+    } else {
+        this->clientCtrl.addBook(newBook);
+    }
+    this->browseIndex++;
+    if(this->browseIndex == this->databaseCtrl.getAll().getAll().size())
+        this->browseIndex = 0;
+    this->clientCtrl.saveData("client1", "/home/raulpavel/Documents/Work/Audible/Client.json");
+    this->browse();
+}
 
 ClientWindow::~ClientWindow() = default;
