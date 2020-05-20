@@ -1,0 +1,28 @@
+{
+    "client1": [
+        {
+            "author": "Michael Chrichton",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/51L1V4DpHpL._SX278_BO1,204,203,200_.jpg",
+            "description": "\tBefore it mutated into the mega media franchise “Jurassic World”, Jurassic Park was a smart, \n\tthoughtful and gripping sci-fi classic written by Michael Crichton, author of the equally brilliant Andromeda Strain. \n\tCrichton's tale remains a great parable about the dangers of genetic engineering.",
+            "genre": "SCI-FI",
+            "title": "Jurassic Park",
+            "year": 1818
+        },
+        {
+            "author": "Mary Shelley",
+            "cover": "https://i.pinimg.com/originals/ed/4a/32/ed4a32a802e5400764167886665b8d8d.jpg",
+            "description": "\tMary Shelley started writing classic gothic thriller Frankenstein when she was 18 years old. \n\tTwo centuries later, it is a major ancestor of both the science fiction and horror genres, \n\ttackling huge themes like the nature of life and death, immortality and genetic engineering.",
+            "genre": "SCI-FI",
+            "title": "Frankenstein",
+            "year": 1990
+        },
+        {
+            "author": "Shirley Jackson",
+            "cover": "https://images.penguinrandomhouse.com/cover/9780143129370",
+            "description": "\tThese are the legendary opening words of The Haunting of Hill House, our pick for the best—and best-written—horror novel of all time.\n\tShirley Jackson’s chilling, lean haunted house tale follows Eleanor Vance, a young woman with a bit of a sensitivity for the paranormal.",
+            "genre": "HORROR",
+            "title": "The Haunting of Hill House",
+            "year": 1959
+        }
+    ]
+}

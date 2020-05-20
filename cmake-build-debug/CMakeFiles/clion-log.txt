@@ -1,0 +1,4 @@
+/home/raulpavel/Documents/clion-2020.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=/home/raulpavel/Qt/5.14.2/gcc_64/lib/cmake -G "CodeBlocks - Unix Makefiles" /home/raulpavel/Documents/Work/Audible
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/raulpavel/Documents/Work/Audible/cmake-build-debug
