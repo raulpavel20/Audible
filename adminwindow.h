@@ -19,14 +19,16 @@ class AdminWindow : public QMainWindow {
     public slots:
         void showOptions();
         void viewList();
-        void deleteBook() {};
+        void deleteBook();
         void addBook() {};
         void editBook() {};
+        void onBookDelete();
 
     private:
         Ui::AdminWindow *ui{};
         QWidget mainWidget;
         Controller databaseCtrl;
+        QLineEdit *title = new QLineEdit();
 
 };
 
