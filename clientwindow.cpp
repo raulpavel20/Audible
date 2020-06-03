@@ -10,6 +10,7 @@
 #include <QDebug>
 #include <QWidget>
 #include <QMessageBox>
+#include <QShortcut>
 
 ClientWindow::ClientWindow(QWidget *parent) : QMainWindow(parent) {
     this->databaseCtrl.loadData("bookDatabase", "/home/raulpavel/Documents/Work/Audible/DataFile.json");
@@ -26,6 +27,10 @@ void ClientWindow::showOptions() {
     auto deleteButton = new QPushButton("Delete a book");
     auto browseButton = new QPushButton("Browse for new books");
 
+    QShortcut *undo = new QShortcut(this);
+    undo->setKey(Qt::CTRL+Qt::Key_Z);
+
+    connect(undo, SIGNAL(activated()), this, SLOT(undoF()));
     connect(yourListButton, SIGNAL(clicked()), this, SLOT(viewList()));
     connect(deleteButton, SIGNAL(clicked()), this, SLOT(deleteBook()));
     connect(browseButton, SIGNAL(clicked()), this, SLOT(browse()));
@@ -225,6 +230,10 @@ void ClientWindow::onAddAndNext() {
     if(this->browseIndex == this->databaseCtrl.getAll().getAll().size())
         this->browseIndex = 0;
     this->clientCtrl.saveData("client1", "/home/raulpavel/Documents/Work/Audible/Client.json");
+    this->browse();
+}
+
+void ClientWindow::undoF() {
     this->browse();
 }
 

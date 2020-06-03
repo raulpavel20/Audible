@@ -32,10 +32,7 @@
   <component name="ChangeListManager">
     <list default="true" id="66e98222-8762-4a74-b4fc-29624656644c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/adminwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/adminwindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/clientwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/clientwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +117,8 @@
       <workItem from="1589965281051" duration="19164000" />
       <workItem from="1589985545432" duration="137000" />
       <workItem from="1589985696164" duration="31000" />
+      <workItem from="1589986630615" duration="41000" />
+      <workItem from="1591183392561" duration="38000" />
     </task>
     <servers />
   </component>
@@ -139,10 +138,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589986214584">
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589986653522">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1589986214584" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1589986653522" />
     <state x="361" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588266227831">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -151,10 +150,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1588275386406" />
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1589986392906">
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1591183427944">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1589986392906" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1591183427944" />
     <state width="1878" height="104" key="GridCell.Tab.0.bottom" timestamp="1589984621495">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

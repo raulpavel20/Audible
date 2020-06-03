@@ -25,12 +25,12 @@
             "year": 1959
         },
         {
-            "author": "Neil Gaiman",
-            "cover": "https://i.harperapps.com/covers/9780062896261/y648.jpg",
-            "description": "\tThe Amazon Prime series failed to spark, but Neil Gaiman's richly described novel is well worth a read.\n\tAmerican Gods pits the abandoned folk deities of the old world against the modern idols we worship now.",
-            "genre": "FANTASY",
-            "title": "American Gods",
-            "year": 2001
+            "author": "Isaac Asimov",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/811zq%2B9%2BhNL.jpg",
+            "description": "Asimov was a prolific writer, but many of his best works are classic short stories such as Nightfall, or The Last Question, which play out like long jokes with a punchline twist at the end.",
+            "genre": "SCI-FI",
+            "title": "Foundation",
+            "year": 1951
         }
     ]
 }

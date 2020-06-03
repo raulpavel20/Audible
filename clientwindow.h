@@ -24,6 +24,7 @@ class ClientWindow : public QMainWindow {
         void browse();
         void onNext();
         void onAddAndNext();
+        void undoF();
 
     private:
         Ui::ClientWindow *ui{};
